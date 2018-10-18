@@ -6,9 +6,10 @@
 }*/
 
 export interface Post {
-    'id': number;
-    'name': string;
-    'breed': string;
-    'age': number;
-    'sex': string;
+    'cedula': number;
+    'nombre': string;
+    'apellido': string;
+    'direccion': string;
+    'celular': string;
+    'sucursal': string;
     }

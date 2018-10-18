@@ -12,6 +12,6 @@ export class DataService {
   }
 
   getData() {
-    return this.http.get<Post[]>('http://localhost:3000/api/puppies');
+    return this.http.get<Post[]>('http://localhost:8080/api/clientes');
   }
 }
