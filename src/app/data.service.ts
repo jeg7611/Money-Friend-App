@@ -12,6 +12,6 @@ export class DataService {
   }
 
   getData() {
-    return this.http.get<Post[]>('http://localhost:8080/api/clientes');
+    return this.http.get<Post[]>('http://money-friend-rest-money-friend.a3c1.starter-us-west-1.openshiftapps.com/api/clientes');
   }
 }
